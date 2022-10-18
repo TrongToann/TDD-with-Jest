@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1666100442824" clover="3.2.0">
-  <project timestamp="1666100442824" name="All files">
-    <metrics statements="19" coveredstatements="17" conditionals="11" coveredconditionals="9" methods="6" coveredmethods="6" elements="36" coveredelements="32" complexity="0" loc="19" ncloc="19" packages="1" files="4" classes="4"/>
-    <file name="arrayClone.js" path="C:\React\New folder\js\arrayClone.js">
+<coverage generated="1666103793876" clover="3.2.0">
+  <project timestamp="1666103793876" name="All files">
+    <metrics statements="17" coveredstatements="16" conditionals="7" coveredconditionals="6" methods="6" coveredmethods="6" elements="30" coveredelements="28" complexity="0" loc="17" ncloc="17" packages="1" files="4" classes="4"/>
+    <file name="arrayClone.js" path="C:\React\TDD-with-Jest\js\arrayClone.js">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="2" count="1" type="stmt"/>
       <line num="4" count="1" type="stmt"/>
     </file>
-    <file name="fibonanci.js" path="C:\React\New folder\js\fibonanci.js">
+    <file name="fibonanci.js" path="C:\React\TDD-with-Jest\js\fibonanci.js">
       <metrics statements="6" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
       <line num="2" count="2" type="cond" truecount="1" falsecount="1"/>
       <line num="4" count="0" type="stmt"/>
@@ -16,19 +16,17 @@
       <line num="12" count="1" type="stmt"/>
       <line num="14" count="1" type="stmt"/>
     </file>
-    <file name="pascal.js" path="C:\React\New folder\js\pascal.js">
-      <metrics statements="9" coveredstatements="8" conditionals="9" coveredconditionals="8" methods="2" coveredmethods="2"/>
+    <file name="pascal.js" path="C:\React\TDD-with-Jest\js\pascal.js">
+      <metrics statements="7" coveredstatements="7" conditionals="5" coveredconditionals="5" methods="2" coveredmethods="2"/>
       <line num="3" count="58" type="cond" truecount="5" falsecount="0"/>
       <line num="5" count="26" type="stmt"/>
       <line num="9" count="1" type="stmt"/>
-      <line num="10" count="1" type="cond" truecount="3" falsecount="1"/>
-      <line num="11" count="0" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="11" count="6" type="stmt"/>
       <line num="13" count="1" type="stmt"/>
-      <line num="14" count="6" type="stmt"/>
-      <line num="17" count="1" type="stmt"/>
-      <line num="19" count="1" type="stmt"/>
+      <line num="15" count="1" type="stmt"/>
     </file>
-    <file name="sum.js" path="C:\React\New folder\js\sum.js">
+    <file name="sum.js" path="C:\React\TDD-with-Jest\js\sum.js">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="2" count="1" type="stmt"/>
       <line num="5" count="1" type="stmt"/>
