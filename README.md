@@ -9,8 +9,8 @@
 
 ### Screenshots Initial
 
-![Source code with Jest](https://github.com/TrongToann/math-util-ant/blob/main/image/DDTwithJunit.png)
+![Source code with Jest](https://github.com/TrongToann/TDD-with-Jest/blob/main/image/initial.png)
 ### Screenshots Passed
-![Source code with Jest](https://github.com/TrongToann/math-util-ant/blob/main/image/DDTwithJunit.png)
+![Source code with Jest](https://github.com/TrongToann/TDD-with-Jest/blob/main/image/passedTestCase.png)
 
 #### © 2022 Trong.Toan
