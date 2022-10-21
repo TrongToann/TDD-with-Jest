@@ -23,30 +23,30 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">27.27% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>9/9</span>
+                <span class='fraction'>3/11</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">22.22% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>5/5</span>
+                <span class='fraction'>2/9</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">50% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>2/2</span>
+                <span class='fraction'>1/2</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">33.33% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>7/7</span>
+                <span class='fraction'>3/9</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line high'></div>
+    <div class='status-line low'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -77,33 +77,42 @@
 <a name='L12'></a><a href='#L12'>12</a>
 <a name='L13'></a><a href='#L13'>13</a>
 <a name='L14'></a><a href='#L14'>14</a>
-<a name='L15'></a><a href='#L15'>15</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L15'></a><a href='#L15'>15</a>
+<a name='L16'></a><a href='#L16'>16</a>
+<a name='L17'></a><a href='#L17'>17</a>
+<a name='L18'></a><a href='#L18'>18</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">58x</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">26x</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">6x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span></td><td class="text"><pre class="prettyprint lang-js">function Combination(k, n) {
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span></td><td class="text"><pre class="prettyprint lang-js">function <span class="fstat-no" title="function not covered" >Combination(</span>k, n) {
 &nbsp;
-  if(k == 0 || k == n || n == 1) return 1
+<span class="cstat-no" title="statement not covered" >  if(k == 0 || k == n || n == 1) <span class="cstat-no" title="statement not covered" >return 1</span></span>
   
-  return Combination(k - 1, n - 1) + Combination (k, n - 1)
+<span class="cstat-no" title="statement not covered" >  return Combination(k - 1, n - 1) + Combination (k, n - 1)</span>
 }
 &nbsp;
 function PascalRectangle(n) {
-    var array = [] ; 
-        for(var i = 0; i &lt;= n; i++) {
-            array.push(Combination(i, n)) ; 
+  <span class="missing-if-branch" title="else path not taken" >E</span>if (n &gt; 5 || <span class="branch-1 cbranch-no" title="branch not covered" >n &lt; 0 </span>) {
+    throw new Error("Invalid TimeOut") ; 
+  } 
+    var array = <span class="cstat-no" title="statement not covered" >[] </span>; 
+<span class="cstat-no" title="statement not covered" >        for(var i = <span class="cstat-no" title="statement not covered" >0;</span> i &lt;= n; i++) {</span>
+<span class="cstat-no" title="statement not covered" >            array.push(Combination(i, n)) ; </span>
         }
-  return array ; 
+<span class="cstat-no" title="statement not covered" >  return array ; </span>
 }
 module.exports = PascalRectangle ;</pre></td></tr></table></pre>
 
@@ -112,7 +121,7 @@ module.exports = PascalRectangle ;</pre></td></tr></table></pre>
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2022-10-19T00:08:35.384Z
+                at 2022-10-20T03:54:13.522Z
             </div>
         <script src="prettify.js"></script>
         <script>
