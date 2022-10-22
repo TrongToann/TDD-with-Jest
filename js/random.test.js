@@ -6,7 +6,7 @@ const predict_numbers = [
     5290,
     7984,
     3744,
-    4017
+    4018
 ]
 
 describe("Predict random number", () => {
