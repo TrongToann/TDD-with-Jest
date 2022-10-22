@@ -7,7 +7,7 @@ function Combination(k, n) {
 
 function PascalRectangle(n) {
   if (n < 0 || n > 5) {
-    throw new Error ("Invalid Number!") ; 
+    throw new Error("Invalid Number") ; 
   }
   var array = [] ; 
         for(var i = 0; i <= n; i++) {
